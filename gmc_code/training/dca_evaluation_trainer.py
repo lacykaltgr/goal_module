@@ -3,7 +3,7 @@ import torch
 import numpy as np
 import logging.config
 from pytorch_lightning import LightningModule
-from dca.schemes import (
+from dca_eval.schemes import (
     DCALoggers,
     DelaunayGraphParams,
     ExperimentDirs,
@@ -11,8 +11,8 @@ from dca.schemes import (
     HDBSCANParams,
     REData,
 )
-from dca.DCA import DCA
-import dca.visualization as DCA_visualization
+from dca_eval.DCA import DCA
+import dca_eval.visualization as DCA_visualization
 
 
 class DCAEvaluator(LightningModule):

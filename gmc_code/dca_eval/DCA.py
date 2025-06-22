@@ -4,7 +4,7 @@ import numpy as np
 import os
 import logging
 import pickle
-from dca.schemes import (
+from dca_eval.schemes import (
     DCALoggers,
     DelaunayGraphVisualizer,
     REData,
@@ -14,13 +14,13 @@ from dca.schemes import (
     GeomCAParams,
     QueryData,
 )
-from dca.delaunay_graph import DelaunayGraph
+from dca_eval.delaunay_graph import DelaunayGraph
 from typing import Optional, List
 import pandas as pd
-import dca.delaunay_graph_utils as graph_utils
-import dca.visualization as visualization
+import dca_eval.delaunay_graph_utils as graph_utils
+import dca_eval.visualization as visualization
 import logging.config
-from dca.loggers import logger_time, get_parameters
+from dca_eval.loggers import logger_time, get_parameters
 import json
 
 # -------------------------------------------------------------------------- #

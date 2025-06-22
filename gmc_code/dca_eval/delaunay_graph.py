@@ -4,14 +4,14 @@ import numpy as np
 import os
 import logging
 import pickle
-from dca.schemes import (
+from dca_eval.schemes import (
     DelaunayGraphComponentStats,
     DelaunayGraphNetworkStats,
 )
 from functools import wraps
 from typing import List, Optional
 import pandas as pd
-import dca.delaunay_graph_utils as graph_utils
+import dca_eval.delaunay_graph_utils as graph_utils
 import gc
 
 

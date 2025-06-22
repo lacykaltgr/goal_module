@@ -1,5 +1,5 @@
-from dca.DCA import DelaunayGraph
-from dca.schemes import DelaunayGraphVisualizer
+from dca_eval.DCA import DelaunayGraph
+from dca_eval.schemes import DelaunayGraphVisualizer
 import numpy as np
 import os
 import matplotlib as mpl

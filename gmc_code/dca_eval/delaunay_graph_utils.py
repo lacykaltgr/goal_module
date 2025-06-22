@@ -3,13 +3,13 @@ import numpy as np
 import os
 import pickle
 import hdbscan
-from dca.schemes import (
+from dca_eval.schemes import (
     DelaunayGraphParams,
     HDBSCANParams,
 )
 from hdbscan._hdbscan_linkage import label
 import logging
-from dca.loggers import logger_time
+from dca_eval.loggers import logger_time
 import gc
 
 
