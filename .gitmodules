@@ -1,0 +1,3 @@
+[submodule "gmc_code/DCA"]
+	path = gmc_code/DCA
+	url = https://github.com/petrapoklukar/DCA.git
